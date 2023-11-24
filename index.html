@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!--head-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potofolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/15491dc390.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" /><script src="jquery.js"></script>
+</head>
+<!--end of head-->
+
+<!--body-->
+<body>
+    <!--header-->
+    <header>
+        <h1>Portofolio</h1>
+        <nav>
+            <ul class="list">
+                <li><i class="fa-solid fa-house"></i><a href="#Beranda"> Home </a></li>
+                <li><i class="fa-solid fa-user"></i><a href="#Tentang"> About </a></li>
+                <li><i class="fa-solid fa-fire"></i><a href="#Skill"> Skill </a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+    <!--end of header-->
+
+    <!--main-->
+    <main>
+        <div id="Beranda" >
+            <div class="BerandaM">
+                <div class="logo11">
+                    <i class="fa-solid fa-laptop"></i>
+                </div>
+                <div class="kataberanda">
+                    <h2>Halloo I'm</h2>
+                    <h2>Muhamad Sazidan Al-Zahran</h2>
+                    <p>Back End Developer</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Tentang">
+            <div class="title">
+                <h2>About</h2>
+            </div>
+            <div class="isi">
+                <h1>Muhamad Sazidan Al-Zahran</h1>
+                <div class="fotofooter">
+                    <img src="image/profil.jpeg">
+                </div>
+                <h5>I'm in class 10 at Wikrama Vocational School,<br> I majored in software and game development,<br> I took this major because I want to become a back end developer.</h5>
+            </div>
+        </div>
+
+        <div id="Skill">
+            <div class="skillku">
+                <h1>Skill</h1> 
+            </div>
+            <div class="skillkufont">
+                    <i class="fa-brands fa-html5 fa-beat-fade" style="color: #ff9500;">
+                    <p>HTML</p>
+                <p>95%</p></i>
+                    <i class="fa-brands fa-css3-alt fa-beat-fade" style="color: #005eff;">
+                    <P>CSS</P>
+                <p>80%</p></i>
+                    <i class="fa-brands fa-square-js fa-beat-fade" style="color: #d9e628;">
+                    <p>JAVA SCRIPT</p>
+                <p>2%</p></i>
+            </div>
+        </div>
+        
+    </main>
+    <!--end of main-->
+
+    <!--footer-->
+    <footer>
+        <div class="MyFooter">
+            &copy; 2023 Muhamad Sazidan Al-Zahran
+        </div>
+    </footer>
+    <!--end of footer-->
+    <script>
+        $(document).ready(function () {
+            $(".menu-toggle").click(function () {
+                $('nav').toggleClass('active');
+            })
+        })
+    </script>
+</body>
+
+
+</html>
